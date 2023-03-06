@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+      <!-- Bootstrap CSS -->
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+    <section class="Heading">
+
+        <div class="container">
+    <!------Heading First Landing page -->
+
+
+    <!---Navbar Menu -->
+    
+    <p class="number"> Call Us Today ! 078 256 9655  <br>  OR   <br> <button class="green" type="button" class="btn btn-success btn-sm  "   > <a class="fusion-button button-flat button-medium button-custom button-2 fusion-button-span-yes fusion-button-default-type" target="_self" href="https://api.whatsapp.com/send?phone=+27782569655&amp;text=Website%20Enquiry"><span class="fusion-button-icon-divider button-icon-divider-left"><i class="fa fa-whatsapp" aria-hidden="true"></i></span><span class="fusion-button-text fusion-button-text-left">WhatsApp Me</span></a>
+    </button> 
+  
+    <br>
+
+    <br>
+    
+   <button class="call"> <a class="fusion-button button-flat button-medium button-default button-1 fusion-button-span-yes fusion-button-default-type" target="_self" href="tel:+27782569655"><span class="fusion-button-icon-divider button-icon-divider-left"> <i class="fa fa-phone" aria-hidden="true"></i> </span><span class="fusion-button-text fusion-button-text-left">Click to Call</span></a> </button> 
+  
+  </p>  
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+  
+        <a class="navbar-brand" href=""> <img src="Genius.jpeg" alt=" Genius Locksmith  / Soweto locksmith " class="headpic"> </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>        
+        <div class="collapse navbar-collapse" id="navbarMain">
+          
+          <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active  touquest" aria-current="page" href="index.html">Home</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link active" href="Residential.html">Residential</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link active"   href="commercial.html"  >Commercial</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link active"    href="Automotive.html"> Automotive</a>
+            </li>     
+     
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="head_div"> 
+      
+     
+     <img src="data:image/jpeg;base64,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" class="img" alt=" Local locksmith Roodepoort / Local locksmith Soweto">
+    
+    </div>
+
+    
+
+   
+
+  
+  
+    
+  
+
+
+<!--- end of Navbar Menu -->
+
+
+  <div class="slogan">  <h3>we provide essential locksmith services to all customers!  </h3></div>
+
+
+</div>
+</section>
+
+  <!------ end of Heading First Landing page -->
+
+
+
+  <section class="body-part" >
+<div class="container">
+  <!------------------------------------------------------------------------------------>
+<div class="quote">
+
+    <div class="card-group">
+
+        <div class="card text-white bg-secondary ">
+          <div class="card-body">
+            <h5 class="card-title l">QUICK QUOTE</h5>
+            <p class="card-text">Do you need locksmith services? Fill out this form to get in touch.</p>
+          </div>
+        </div>
+
+
+        <div class="card text-white bg-secondary  ">
+          <div class="card-body">
+            <h5 class="card-title">
+
+                <div class="form">
+                 
+                    <form action="">
+                      <p>
+                       
+                        <input type="text" placeholder="Name"   >
+                      </p>
+                      <p>
+                       
+                        <input type="text"  placeholder="Email"   >
+                      </p>
+                      <p>
+                      
+                        <input type="text"  placeholder="Telephone" >
+                      </p>
+                   
+                    
+                      
+                        <button class="tc_R">Request Quote</button>
+                      
+                    </form>
+
+
+            </h5>
+            <p class="card-text">      </p>
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="middle quote ">
+    
+      <div class="card text-white bg-secondary border-0">
+        <div class="card-header">
+          
+        
+        <div class="card-body">
+          <h1 class="card-title d l">LOCKSMITH SERVICES</h1>
+          <p class="card-text"> LOCKSMITH EXPERIENCE MATTERS!
+            <br> The expert locksmiths at On Call Locksmith Service can handle all of your locksmith needs.<br> 
+            We offer a variety of locksmith services such as the installations of locks for homes, cars and businesses.</p>
+        
+        </div>
+      </div>
+
+
+      <div class="card text-white bg-secondary  up  border-0 ">
+        <div class="card-header">
+          
+        
+        <div class="card-body">
+          <h5 class="card-title left">Residential Locksmith Services</h5>
+          <p class="card-text left"> Making your home secure is essential, and it is comforting to know that it
+             doesn’t have to cost the earth to get a professional locksmith to supply 
+            and install quality locks throughout your home. We offer the following services. </p>
+        
+        </div>
+      </div>
+
+
+
+      <div class="card text-white bg-secondary  up  border-0 ">
+        <div class="card-header">
+          
+        
+        <div class="card-body">
+          <h5 class="card-title left"> Service & Repairs</h5>
+          <p class="card-text left"> Regular servicing of your locks will extend their life and 
+            improve their reliability. As a guide, we recommend servicing your locks every 5 years or so to ensure 
+            smooth operation and peace of mind for you and your family Existing locks may also need to be repaired from 
+            time to time which could be much less expensive than installing brand new locks. 
+            Our technician will inspect your locks and let you know if this is a viable alternative for you.</p>
+        
+        </div>
+      </div>
+
+
+      <div class="card text-white bg-secondary  up  border-0 ">
+        <div class="card-header">
+          
+        
+        <div class="card-body">
+          <h5 class="card-title left">Rekeying</h5>
+          <p class="card-text left"> Rekeying your existing locks saves the cost of replacing old locks 
+            with new locks. If you have lost a set of keys or perhaps had them stolen then this may be the most cost-effective
+             solution for you. In most cases, we can simply replace the barrel and supply you with new keys.</p>
+        
+        </div>
+      </div>
+
+
+
+      <div class="card text-white bg-secondary  up   border-0">
+        <div class="card-header">
+          
+        
+        <div class="card-body">
+          <h5 class="card-title left">Keying Alike</h5>
+          <p class="card-text left">
+
+            This is ideal for many of our customers as it means that one key can operate all the locks in your home. 
+            No need to carry a bunch of keys around anymore. Very convenient and very cost-effective.
+
+          </p>
+        
+        </div>
+      </div>
+
+
+
+    </div>
+
+<!-------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="card-group service">
+
+      <div class="card  bg-secondary ">
+        <i class="fa fa-home " aria-hidden="true"></i>
+        <div class="card-body">
+          <h3 class="card-title w"> Residential Locksmith</h3>
+          <p class="card-text w">On Call Locksmith provides a full line of residential services: safe sales and installation, 
+            lock rekeying, lockout service, security camera sales and installation, key duplication, and lock repair to name a few.</p>
+
+            <p >  <a  href="Residential.html">    <button class="tc_R"   >Read More</button> </a>  </p>
+         
+        </div>
+      </div>
+
+    
+      <div class="card bg-secondary  ">
+   
+        <i class="fa fa-building " aria-hidden="true"></i>
+
+        <div class="card-body">
+          <h3 class="card-title w">Commercial Locksmith</h3>
+          <p class="card-text w">On Call Locksmith offers a wide range of professional locksmith services to commercial 
+            customers of all types and sizes including retail, commercial, industrial, schools, churches and more.</p>
+         
+            <p >  <a  href="commercial.html">    <button class="tc_R"   >Read More</button> </a>  </p>
+
+        </div>
+      </div>
+
+
+      <div class="card  bg-secondary ">
+     
+        <i class="fa fa-key " aria-hidden="true"></i>
+
+        <div class="card-body">
+          <h3 class="card-title w"> Automotive Locksmith </h3>
+          <p class="card-text w">On Call Locksmith knows how important it is for you to stay mobile. We can help get you back into your car
+             if you are locked out. If you need duplicate keys because of a broken key or lost keys, contact us. </p>
+        
+             <p >  <a  href="Automotive.html">    <button class="tc_R"   >Read More</button> </a>  </p>
+
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <div class="card-group">
+
+      <div class="card     bg-light ">
+       
+        <div class="card-body">
+          <h5 class="card-title "> </h5>
+          
+          <h4 class="card-text  fot red">  OFFICE LINE    </h4>
+          <h4 class="w">   078 256 9655 </h4>
+
+        </div>
+       
+      </div>
+
+
+      <div class="card      bg-light  ">
+       
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <h4 class="card-text  fot red">  EMERGENCY     </h4>
+          <h4 class="w"> 078 256 9655 </h4>
+        </div>
+      
+      </div>
+      <div class="card      bg-light  ">
+      
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <h4 class="card-text  fot "> <p class="red" >WORKING HOURS  </h4>  
+          <h4 class="w"> 24 Hours  </h4>
+        </div>
+       
+      </div>
+    </div>
+
+
+
+</div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+  </body>
+</html>
